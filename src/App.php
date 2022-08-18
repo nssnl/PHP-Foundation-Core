@@ -108,11 +108,11 @@ class App {
 		$this->mail = null;
 
 		// initialize the authentication component
-		$this->auth = new Auth(
+		/*$this->auth = new Auth(
 			$this->db(),
 			$this->getClientIp(),
 			!empty($_ENV['DB_PREFIX']) ? $_ENV['DB_PREFIX'] : null
-		);
+		);*/
 
 		// initialize the internationalization component
 		if (!empty($_ENV['I18N_SUPPORTED_LOCALES'])) {
